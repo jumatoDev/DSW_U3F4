@@ -51,6 +51,7 @@ header {
 
 /******************** NAV ********************/
 nav {
+    overflow: auto;
     width: 100%;
     grid-area: B;
     background-color: black;
@@ -69,7 +70,7 @@ nav {
     background-color: black;
     color: white;
     display: inline-block;
-	padding: 12px 73px;
+	padding: 12px 60px;
 }
 
 .menu_horizontal a:hover{
@@ -81,16 +82,20 @@ aside {
     width: 100%;
     margin-top: 10px;
     grid-area: C;
-    text-align: center;
+    /* text-align: center; */
+    
 }
+
 aside div{
     display: flex;
     flex-direction: column;
 }
+
 .menu_vertical{
     border-radius: 20px;
     list-style: none;
     background-color: black;
+    text-align: center;
 }
 
 .menu_vertical li a{
@@ -98,9 +103,9 @@ aside div{
     color: #fff;
     text-decoration: none;
     display: inline-block;
-    padding: 15px 56px;
+    padding: 20px 56px;
+    margin-bottom: 10px;
     border-radius: 20px;
-    /* list-style: none; */
 }
 
 .menu_vertical a:hover{
